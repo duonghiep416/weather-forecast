@@ -24,8 +24,14 @@
         <div class="container">
             <div class="search-box">
                 <i class="fa-solid fa-location-dot"></i>
-                <input type="text" placeholder="Enter your location" />
-                <button class="fa-solid fa-magnifying-glass"></button>
+                <input
+                    type="text"
+                    placeholder="Enter your location"
+                    class="location"
+                />
+                <button
+                    class="fa-solid fa-magnifying-glass search-btn"
+                ></button>
             </div>
 
             <div class="not-found">
@@ -34,7 +40,7 @@
             </div>
 
             <div class="weather-box">
-                <img src="" alt="" />
+                <img src="" alt="" class="weather-status__img" />
                 <p class="temperature"></p>
                 <p class="description"></p>
             </div>
@@ -43,14 +49,14 @@
                 <div class="humidity">
                     <i class="fa-solid fa-water"></i>
                     <div class="text">
-                        <span></span>
+                        <span class="humidity-percent"></span>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="wind">
                     <i class="fa-solid fa-wind"></i>
                     <div class="text">
-                        <span></span>
+                        <span class="wind-speed"></span>
                         <p>Wind Speed</p>
                     </div>
                 </div>
